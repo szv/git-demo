@@ -8,5 +8,7 @@ Console.WriteLine("This is my new second cool feature.");
 
 Console.WriteLine("This is my new third cool feature.");
 
-Person person = new("Sebastian Szvetecz");
-Console.WriteLine(person.Name);
+Person sebastian = new("Sebastian Szvetecz");
+Person abbas = new("Abbas Ahmadi");
+Console.WriteLine(sebastian.Name);
+Console.WriteLine(abbas.Name);
